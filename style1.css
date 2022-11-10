@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right, rgb(120, 231, 120), rgb(18, 75, 231));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.MainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.3) 0px 15px 12px;
+    padding: 0px 200px 0px 200px;      
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#score {
+    font-size: 75px;
+    font-family: cursive;
+    -webkit-text-stroke: 5px white;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 15px;
+}
+
+button {
+    border: none;
+    font-size: 40px;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button1{
+    color: green;
+}
+
+.button2{
+    color: yellow;
+}
+
+.button3{
+    color: red;
+}
+#confirmationDialogBox {
+    z-index: 9999;
+    position: fixed;
+    left: 50;
+    top: 50;
+    width: 50vw;
+    height: 35vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
